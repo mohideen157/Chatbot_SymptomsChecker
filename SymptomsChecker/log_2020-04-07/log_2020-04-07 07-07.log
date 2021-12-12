@@ -1,0 +1,5 @@
+/diagonise
+{"symptoms":["p_16-absent","p_17-absent","p_18-absent","p_19-absent","p_20-absent","p_21-absent","p_22-absent","s_0-present","s_1-present","s_2-absent","s_3-absent","s_4-present","s_5-absent"],"lang_model":"infermedica-en","name":"c2ptest","mobileno":"9000000099","sex":"male","age":"37"}
+calling: https://api.infermedica.com/covid19/diagnosis
+[{"id":"p_16","choice_id":"absent"},{"id":"p_17","choice_id":"absent"},{"id":"p_18","choice_id":"absent"},{"id":"p_19","choice_id":"absent"},{"id":"p_20","choice_id":"absent"},{"id":"p_21","choice_id":"absent"},{"id":"p_22","choice_id":"absent"},{"id":"s_0","choice_id":"present"},{"id":"s_1","choice_id":"present"},{"id":"s_2","choice_id":"absent"},{"id":"s_3","choice_id":"absent"},{"id":"s_4","choice_id":"present"},{"id":"s_5","choice_id":"absent"}]
+parsed

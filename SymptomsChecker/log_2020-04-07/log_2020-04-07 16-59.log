@@ -1,0 +1,4 @@
+insert patient request
+{"mobile_no":"8826437701","triage_level":"","label":null,"description":null,"serious":"[{\"common_name\":\"Fever between 37.5°C and 38°C (99.5°F and 100.4°F)\",\"id\":\"s_22\",\"is_emergency\":false,\"name\":\"Fever between 37.5°C and 38°C (99.5°F and 100.4°F)\"}]","root_cause":"","checked_datetime":"2020-04-07 16-59-53"}
+insertion result
+{"success":false,"message":"Validation Failed","validation":["The triage level field is required."]}

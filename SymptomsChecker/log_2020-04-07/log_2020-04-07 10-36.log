@@ -1,0 +1,4 @@
+insert patient request
+{"mobile_no":"9867272&","triage_level":"isolation_ambulance","label":"Call the emergency number. Avoid all contact.","description":"Your symptoms are very serious, and you may be infected with COVID-19.","serious":"[{\"common_name\":\"Fever greater than 40°C (104°F)\",\"id\":\"s_4\",\"is_emergency\":true,\"name\":\"Fever greater than 40°C (104°F)\"}]","root_cause":"","checked_datetime":"2020-04-07 10-36-52"}
+insertion result
+{"success":false,"message":"Validation Failed","validation":["The mobile no must be a number."]}

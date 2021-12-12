@@ -1,0 +1,9 @@
+/getDetails
+lang_model: infermedica-ta
+lang: ta
+/getDetails
+lang: hi
+lang_model: infermedica-hi
+/getDetails
+lang: en
+lang_model: infermedica-en

@@ -1,0 +1,14 @@
+/infermedica-en/assets/bootstrap/js/bootstrap.bundle.min.js.map
+Sorry can't find that!
+lang: en
+/getDetails
+lang_model: infermedica-en
+/infermedica-en/assets/bootstrap/js/bootstrap.bundle.min.js.map
+Sorry can't find that!
+{"name":"sdsd","mobileno":"asas","age":"65","lang_model":"infermedica-en","sex":"male"}
+calling: https://api.infermedica.com/covid19/diagnosis
+/diagonise
+
+parsed
+/infermedica-en/assets/bootstrap/js/bootstrap.bundle.min.js.map
+Sorry can't find that!

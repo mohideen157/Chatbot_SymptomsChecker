@@ -1,0 +1,11 @@
+{
+    "symptomUrl" : "https://api.infermedica.com/v2/symptoms",
+    "diagonosisUrl":"https://api.infermedica.com/v2/diagnosis",
+    "triageUrl":"https://api.infermedica.com/v2/triage",
+    "AppId":"41dde73a",
+    "AppKey":"51031f2c5213f5f10e5955d6a6dae006",
+    "host": "localhost",  
+    "user": "root",
+    "database": "symptoms_database",  
+    "log_path":"E:/Office/Company files/chatbot_ui_covid-19/Chatbot_version/SymptomsChecker/log_"
+}

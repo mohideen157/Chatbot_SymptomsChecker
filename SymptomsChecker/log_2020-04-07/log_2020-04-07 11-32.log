@@ -1,0 +1,4 @@
+insert patient request
+{"mobile_no":"8287408285","triage_level":"","label":null,"description":null,"serious":"[{\"common_name\":\"Cough\",\"id\":\"s_1\",\"is_emergency\":false,\"name\":\"Cough\"}]","root_cause":"","checked_datetime":"2020-04-07 11-32-22"}
+insertion result
+{"success":false,"message":"Validation Failed","validation":["The triage level field is required."]}

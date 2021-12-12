@@ -1,0 +1,8 @@
+insert patient request
+{"mobile_no":"9008899000","triage_level":"quarantine","label":"Quarantine","description":"Your symptoms do not suggest that you may have COVID-19 infection. However, according to WHO and CDC guidelines, it is strongly recommended that you keep yourself separated from others for the next 14 days.","serious":"[{\"common_name\":\"Living or caring for COVID-19 suspected person\",\"id\":\"p_12\",\"is_emergency\":false,\"name\":\"Living or caring for COVID-19 suspected person\"}]","root_cause":"","checked_datetime":"2020-04-07 10-08-49"}
+insertion result
+{"success":true,"message":"Insert COVID19 Symptoms data Successfully."}
+insert patient request
+{"mobile_no":"9008899000","triage_level":"quarantine","label":"தனிமைப்படுத்தல்","description":"உங்களுக்கு COVID-19 தொற்று இருக்கலாம் என்று உங்கள் அறிகுறிகள் தெரிவிக்கவில்லை. இருப்பினும், WHO மற்றும் CDC வழிகாட்டுதல்களின்படி, அடுத்த 14 நாட்களுக்கு உங்களை மற்றவர்களிடமிருந்து பிரித்து வைத்திருக்க வேண்டும் என்று கடுமையாக பரிந்துரைக்கப்படுகிறது.","serious":"[{\"common_name\":\"COVID-19 உள்ளதாக சந்தேகமுடைய நபருடன் வாழ்தல் அல்லது கவனித்தல்\",\"id\":\"p_12\",\"is_emergency\":false,\"name\":\"COVID-19 உள்ளதாக சந்தேகமுடைய நபருடன் வாழ்தல் அல்லது கவனித்தல்\"}]","root_cause":"","checked_datetime":"2020-04-07 10-08-58"}
+insertion result
+{"success":true,"message":"Insert COVID19 Symptoms data Successfully."}

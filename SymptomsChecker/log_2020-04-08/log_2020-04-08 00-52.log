@@ -1,0 +1,4 @@
+insert patient request
+{"mobile_no":"9810060314","triage_level":"self_monitoring","label":"Stay home and monitor your symptoms.","description":"Your symptoms do not suggest that you have the COVID-19 infection. Still, it is better if you recover from your illness or symptoms at home for your and other people’s safety. Remember that your symptoms may also result from other diseases and may require medical consultation - this interview targets the COVID-19 infection. If your symptoms seem severe and you are worried, contact your doctor or local health authorities.","serious":"","root_cause":"","checked_datetime":"2020-04-08 00-52-21"}
+insertion result
+{"success":true,"message":"Insert COVID19 Symptoms data Successfully."}

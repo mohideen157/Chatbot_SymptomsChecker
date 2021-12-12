@@ -1,0 +1,4 @@
+insert patient request
+{"mobile_no":"9867272&","triage_level":"","label":null,"description":null,"serious":"[{\"common_name\":\"Fever over 40°C (104°F)\",\"id\":\"s_4\",\"is_emergency\":true,\"name\":\"Fever over 40°C (104°F)\"}]","root_cause":"","checked_datetime":"2020-04-08 09-00-03"}
+insertion result
+{"success":false,"message":"Validation Failed","validation":["The mobile no must be a number.","The triage level field is required."]}

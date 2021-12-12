@@ -1,0 +1,4 @@
+insert patient request
+{"mobile_no":"9000000099","triage_level":"no_risk","label":"Follow preventive measures.","description":"Your answers do not suggest that you have COVID-19 infection. Keep taking the common measures to avoid getting infected. Remember that your symptoms may also result from other diseases and may require medical consultation - this interview targets the COVID-19 infection. If your symptoms seem severe and you are worried, contact your doctor or local health authorities.","serious":"","root_cause":"","checked_datetime":"2020-04-07 10-53-39"}
+insertion result
+{"success":false,"message":"Validation Failed","validation":["The serious field is required."]}

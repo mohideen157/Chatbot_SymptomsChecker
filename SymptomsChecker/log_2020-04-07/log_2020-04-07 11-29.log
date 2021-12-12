@@ -1,0 +1,10 @@
+/favicon.ico
+Sorry can't find that!
+/favicon.ico
+Sorry can't find that!
+{"mobile_no":"9212282008","triage_level":"","label":null,"description":null,"serious":"[{\"common_name\":\"Cough\",\"id\":\"s_1\",\"is_emergency\":false,\"name\":\"Cough\"}]","root_cause":"","checked_datetime":"2020-04-07 11-29-23"}
+insert patient request
+insertion result
+{"success":false,"message":"Validation Failed","validation":["The triage level field is required."]}
+/favicon.ico
+Sorry can't find that!

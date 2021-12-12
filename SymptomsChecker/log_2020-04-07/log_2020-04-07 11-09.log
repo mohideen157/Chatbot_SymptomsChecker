@@ -1,0 +1,34 @@
+https://api.infermedica.com/covid19/diagnosiserror
+/diagonise
+{"name":"StatusCodeError","statusCode":403,"message":"403 - {\"message\":\"authentication failed\"}","error":{"message":"authentication failed"},"options":{"method":"POST","uri":"https://api.infermedica.com/covid19/diagnosis","headers":{"Content-Type":"application/json","App-Id":"41dde73a","App-Key":"51031f2c5213f5f10e5955d6a6dae006","Model":"infermedica-en"},"body":{"sex":"male","age":37,"evidence":[]},"async":true,"json":true,"simple":true,"resolveWithFullResponse":false,"transform2xxOnly":false},"response":{"statusCode":403,"body":{"message":"authentication failed"},"headers":{"date":"Tue, 07 Apr 2020 11:09:21 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"close","server":"Infermedica","strict-transport-security":"max-age=31536000; includeSubDomains","access-control-allow-origin":"*","access-control-allow-methods":"GET, POST, OPTIONS","access-control-allow-headers":"DNT,Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type,Model,App-Id,App-Key,User-Id,Interview-Id,Dev-Mode,Case-Id,app_id,app_key","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block"},"request":{"uri":{"protocol":"https:","slashes":true,"auth":null,"host":"api.infermedica.com","port":443,"hostname":"api.infermedica.com","hash":null,"search":null,"query":null,"pathname":"/covid19/diagnosis","path":"/covid19/diagnosis","href":"https://api.infermedica.com/covid19/diagnosis"},"method":"POST","headers":{"Content-Type":"application/json","App-Id":"41dde73a","App-Key":"51031f2c5213f5f10e5955d6a6dae006","Model":"infermedica-en","accept":"application/json","content-length":37}}}}
+ReferenceError: C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\src\views\diagonise.ejs:15
+    13|             <h2><%= __('checkstatementsapplytoyou')%></h2>
+    14|           
+ >> 15|           <% for(var i=0; i < evidence.length; i++) { %>
+    16|             <input type="hidden" name="symptoms" value="<%= evidence[i].id %>-<%= evidence[i].choice_id %>" id="<%= evidence[i].id %>"/>
+    17|          <% } %>
+    18|         </br><table>
+
+evidence is not defined
+    at eval (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\src\views\diagonise.ejs:22:25)
+    at diagonise (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\ejs\lib\ejs.js:656:17)
+    at tryHandleCache (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\ejs\lib\ejs.js:254:36)
+    at View.exports.renderFile [as engine] (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\ejs\lib\ejs.js:459:10)
+    at View.render (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\express\lib\response.js:1012:7)
+    at ServerResponse.res.render (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\express-layout\lib\express-layout.js:60:21)
+    at C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\src\controllers\diagonosisController.js:204:11
+    at tryCatcher (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\C2P\Webportal\nodejs\SymptomsChecker-COVID19\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+/favicon.ico
+Sorry can't find that!

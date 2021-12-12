@@ -1,0 +1,37 @@
+/diagonise
+{"symptoms":["p_16-absent","p_17-absent","p_18-absent","p_19-absent","p_20-absent","p_21-absent","p_22-absent","s_0-present","s_1-present","s_2-absent","s_3-absent","s_4-present","s_5-absent"],"lang_model":"infermedica-en","name":"c2ptest","mobileno":"9000000099","sex":"male","age":"37"}
+calling: https://api.infermedica.com/covid19/diagnosis
+[{"id":"p_16","choice_id":"absent"},{"id":"p_17","choice_id":"absent"},{"id":"p_18","choice_id":"absent"},{"id":"p_19","choice_id":"absent"},{"id":"p_20","choice_id":"absent"},{"id":"p_21","choice_id":"absent"},{"id":"p_22","choice_id":"absent"},{"id":"s_0","choice_id":"present"},{"id":"s_1","choice_id":"present"},{"id":"s_2","choice_id":"absent"},{"id":"s_3","choice_id":"absent"},{"id":"s_4","choice_id":"present"},{"id":"s_5","choice_id":"absent"}]
+parsed
+/diagonise
+ReferenceError: C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\src\views\diagonise.ejs:14
+    12|       <div class="form-field">
+    13|           <div class="form-header">
+ >> 14|             <h4><%- JSON.stringify(checkstatementsapplytoyou) %></h4>
+    15|           </div></br>
+    16|           <% for(var i=0; i < evidence.length; i++) { %>
+    17|             <input type="hidden" name="symptoms" value="<%= evidence[i].id %>-<%= evidence[i].choice_id %>" id="<%= evidence[i].id %>"/>
+
+checkstatementsapplytoyou is not defined
+    at eval (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\src\views\diagonise.ejs:21:32)
+    at diagonise (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\ejs\lib\ejs.js:656:17)
+    at tryHandleCache (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\ejs\lib\ejs.js:254:36)
+    at View.exports.renderFile [as engine] (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\ejs\lib\ejs.js:459:10)
+    at View.render (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\express\lib\response.js:1012:7)
+    at ServerResponse.res.render (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\express-layout\lib\express-layout.js:60:21)
+    at rp.then.catch.done (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\src\controllers\diagonosisController.js:89:11)
+    at tryCatcher (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Projects\Aegleorbs\Projects\C2P_Projects\Webportal\Nodejs\corona_langchange_colorchange\node_modules\bluebird\js\release\async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)

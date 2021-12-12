@@ -1,0 +1,6 @@
+/favicon.ico
+Sorry can't find that!
+insert patient request
+{"mobile_no":"9871002789","triage_level":"isolation_ambulance","label":"Call the emergency number. Avoid all contact.","description":"Your symptoms are very serious, and you may be infected with COVID-19.","serious":"[{\"common_name\":\"Cough\",\"id\":\"s_1\",\"is_emergency\":false,\"name\":\"Cough\"},{\"common_name\":\"Faster breathing\",\"id\":\"s_13\",\"is_emergency\":true,\"name\":\"Faster breathing\"}]","root_cause":"","checked_datetime":"2020-04-07 10-33-56"}
+insertion result
+{"success":true,"message":"Insert COVID19 Symptoms data Successfully."}

@@ -1,0 +1,11 @@
+/getDetails
+lang: en
+lang_model: infermedica-en
+lang: en
+lang_model: infermedica-en
+/getDetails
+/diagonise
+{"name":"c2ptest","mobileno":"9000000099","age":"37","lang_model":"infermedica-en","sex":"male"}
+calling: https://api.infermedica.com/covid19/diagnosis
+
+parsed

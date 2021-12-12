@@ -1,0 +1,4 @@
+insert patient request
+{"mobile_no":"7023402804","triage_level":"","label":null,"description":null,"serious":"[{\"common_name\":\"Shortness of breath\",\"id\":\"s_2\",\"is_emergency\":true,\"name\":\"Shortness of breath\"}]","root_cause":"","checked_datetime":"2020-04-07 14-08-41"}
+insertion result
+{"success":false,"message":"Validation Failed","validation":["The triage level field is required."]}
